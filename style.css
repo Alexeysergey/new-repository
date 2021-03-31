@@ -1,0 +1,107 @@
+
+
+
+
+    p{
+        color: black;
+    }
+
+    #id-p {
+        text-align: center;
+        background-color: lightblue;
+    }
+    
+
+
+     html body select#id-select[name=""] + nav.navigation ul.list li#id-li:nth-child(1){
+        color: lawngreen;
+     }
+
+     body select#id-select[name=""] + nav.navigation ul.list li#id-li{
+         color: blue;
+     }
+
+     select#id-select[name=""] + nav.navigation ul.list li#id-li{
+        color: lawngreen;
+     }
+     #id-select[name=""] + nav.navigation ul.list li#id-li{
+        color: lawngreen;
+     }
+     
+     [name=""] + nav.navigation ul.list li#id-li{
+        color: rgb(39, 53, 25);
+     }
+
+     nav.navigation ul.list li#id-li{
+        color: rgb(39, 53, 25);
+     }
+
+     .navigation ul.list li#id-li{
+        color: rgb(39, 53, 25);
+     }
+
+     ul.list li#id-li{
+        color: rgb(39, 53, 25);
+     }
+
+     .list li#id-li{
+        color: rgb(39, 53, 25);
+     }
+
+     li#id-li{
+        color: rgb(39, 53, 25);
+     }
+
+     #id-li{
+        color: rgb(39, 53, 25);
+     }
+
+
+   
+      select#id-select[name=""] +nav.navigation +div.box > p.text#id-p{
+
+        color:  blueviolet;
+     }
+     #id-select[name=""] +nav.navigation +div.box > p.text#id-p{
+
+        color:  green;
+     }
+
+     [name=""] +nav.navigation +div.box > p.text#id-p{
+
+        color:  green;
+     }
+
+     nav.navigation +div.box > p.text#id-p{
+
+        color:  rgb(60, 94, 60);
+     }
+
+     .navigation +div.box > p.text#id-p{
+
+        color:  rgb(84, 150, 150);
+     }
+     div.box > p.text#id-p{
+
+        color:  rgb(149, 161, 76);
+     }
+
+     .box > p.text#id-p{
+
+        color:  rgb(149, 161, 76);
+     }
+
+     p.text#id-p{
+
+        color:  rgb(149, 161, 76);
+     }
+
+     .text#id-p{
+
+        color:  rgb(149, 161, 76);
+     }
+
+     #id-p{
+
+        color:  rgb(149, 161, 76);
+     }
