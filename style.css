@@ -10,30 +10,51 @@
         text-align: center;
         background-color: lightblue;
     }
-    
+   body {
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      font-style: italic;
+      
+      font-variant:;
+   }
+ul{
+   font-size: 24px;
+ background-color: khaki;
+ line-height: 25px;
+ list-style-type: lower-roman;
+ padding-left: 50px;
+ list-style-position: inside;
+ 
+  
+}
+ul li {
+   padding-left: 15px;
+   
+ }
 
-
-     html body select#id-select[name=""] + nav.navigation ul.list li#id-li:nth-child(1){
-        color: lawngreen;
+     html body select#id-select + nav.navigation ul.list li#id-li:nth-child(1){
+        color: rgb(199, 126, 16);
+        list-style-position: outside;
      }
 
-     body select#id-select[name=""] + nav.navigation ul.list li#id-li{
+     body select#id-select + nav.navigation ul.list li#id-li{
          color: blue;
      }
 
-     select#id-select[name=""] + nav.navigation ul.list li#id-li{
+     select#id-select + nav.navigation ul.list li#id-li{
         color: lawngreen;
      }
-     #id-select[name=""] + nav.navigation ul.list li#id-li{
+     #id-select + nav.navigation ul.list li#id-li{
         color: lawngreen;
      }
      
-     [name=""] + nav.navigation ul.list li#id-li{
+      nav.navigation ul.list li#id-li{
         color: rgb(39, 53, 25);
      }
 
      nav.navigation ul.list li#id-li{
-        color: rgb(39, 53, 25);
+        color: rgb(128, 255, 0);
      }
 
      .navigation ul.list li#id-li{
@@ -58,23 +79,26 @@
 
 
    
-      select#id-select[name=""] +nav.navigation +div.box > p.text#id-p{
-
-        color:  blueviolet;
+      select#id-select+nav.navigation +div.box > p.text#id-p{
+         font-weight: 200;
+         font-style: oblique;
+        color:  rgb(49, 0, 95);
+        background-color:rgb(235, 235, 188);
+        text-decoration: line-through red 1px;
+        text-transform: uppercase;
+        text-align: justify;
+        vertical-align: middle;
+        line-height: normal;
      }
-     #id-select[name=""] +nav.navigation +div.box > p.text#id-p{
+     #id-select +nav.navigation +div.box > p.text#id-p{
 
-        color:  green;
+        color:  rgb(185, 201, 185);
      }
 
-     [name=""] +nav.navigation +div.box > p.text#id-p{
-
-        color:  green;
-     }
 
      nav.navigation +div.box > p.text#id-p{
 
-        color:  rgb(60, 94, 60);
+        color:  rgb(77, 136, 77);
      }
 
      .navigation +div.box > p.text#id-p{
@@ -105,3 +129,34 @@
 
         color:  rgb(149, 161, 76);
      }
+
+   a.text-item-link{
+
+      font-size: 43px;
+      text-decoration: none;
+      padding: 2px 1px 0;
+      color: teal;
+font-style: normal;
+   }
+
+   a:link{
+      color: teal;
+   }
+   a.text-item-link:visited {
+color:#265301;
+   }
+   
+   a.text-item-link:focus {
+      border-bottom: 1px solid;
+  background: #BAE498;
+   }
+   
+   a.text-item-link:hover {
+      border-bottom: 4px solid;
+      background: #CDFEAA;
+   }
+   
+   a.text-item-link:active {
+      background: #265301;
+      color: #CDFEAA;
+   }

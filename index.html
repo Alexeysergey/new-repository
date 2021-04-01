@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
   <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="/STYLE1.CSS">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,21 +21,41 @@
       <option value="2">Two</option>  <!--this-->
     </select>
     <nav class="navigation">
-      <ul class="list">
+      <ul class="list" >
         <li id="id-li">1</li> <!--this-->
-        <li>2</li>
+        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, rerum!</li>
         <li>3</li>
         <li>4</li>
       </ul>
+      
     </nav>
     <div class="box">
       <p class="text" id="id-p"> <!--this-->
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam error facilis magni vitae at, fuga vel non
-        consequuntur voluptatem quod adipisci, minima tempora repudiandae perspiciatis maiores cumque culpa fugiat
+        <span style="color:blue; text-decoration: none;
+border-bottom: 1px dashed blue;">Lorem </span> ipsum dolor sit, amet consectetur adipisicing elit. Aliquam error facilis magni vitae at, fuga vel non
+        consequunturvoluptatem quod adipisci, minima tempora repudiandae perspiciatis maiores cumque culpa fugiat
         quisquam.
-        <span class="text-item">Text in span<a class="text-item-link" href="">Link</a></span> <!--this-->
+        <span class="text-item">Text in span <br><br><a class="text-item-link" href="">Link</a></span> <!--this-->
       </p>
     </div>
+
+    <div class="input">
+      <input type="radio" id="contactChoice1"
+       name="contact" value="email">
+      <label for="contactChoice1">Email</label>
+  
+      <input type="radio" id="contactChoice2"
+       name="contact" value="phone">
+      <label for="contactChoice2">Phone</label>
+  
+      <input type="radio" id="contactChoice3"
+       name="contact" value="mail">
+      <label for="contactChoice3">Mail</label>
+    </div>
+    <div class="button">
+      <button type="submit">OK</button>
+    </div>
+    
   </body>
 </body>
 
